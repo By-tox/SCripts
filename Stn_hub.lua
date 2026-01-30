@@ -5,15 +5,15 @@ end
 if setfpscap then
     setfpscap(1000000)
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Vylera Hub",
-        Text = "FPS Unlocked!",
+        Title = "Stn Hub",
+        Text = "FPS Already!",
         Duration = 5,
         Button1 = "Okay"
     })
-    warn("FPS Unlocked!")
+    warn("FPS Already!")
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Vylera Hub",
+        Title = "Stn Hub",
         Text = "Your exploit does not support setfpscap.",
         Duration = 5,
         Button1 = "Okay"
@@ -23,9 +23,9 @@ end
 
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
-    Title = "Vylera Hub",
-    Icon = "rbxassetid://84228153855933",
-    Author = "Vylera Hub | Blox Fruit",
+    Title = "Stn Hub",
+    Icon = "rbxassetid://130692019911397",
+    Author = "https://discord.gg/YDecu8Sfzt | Blox Fruit",
     Folder = "Vylera Hub_BF",
     Size = UDim2.fromOffset(550, 300),
     Transparent = true,
@@ -10644,7 +10644,7 @@ local Data = {
             ["inline"] = false
         }, {
             ["name"] = "Thank You Everyone",
-            ["value"] = "Used Script By Vylera Hub",
+            ["value"] = "Used Script By Stn Hub",
             ["inline"] = false
         }}
     }}
