@@ -2451,7 +2451,7 @@ spawn(function()
 end);
 DiscordServerParagraph = Tabs.InfoTab:Paragraph({
     Title = "Discord Server",
-    Desc = "Link Discord Vylera Hub!",
+    Desc = "Link Discord Stander Hub!",
     TextXAlignment = "Left",
     Buttons = {{
         Title = "Copy Link Discord",
@@ -2467,8 +2467,8 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
     }}
 });
 DiscordServerParagraph1 = Tabs.InfoTab:Paragraph({
-    Title = "Social Vylera Hub",
-    Desc = "Link Social Vylera Hub!",
+    Title = "Social Stander Hub",
+    Desc = "Link Social Stander Hub!",
     TextXAlignment = "Left",
     Buttons = {{
         Title = "Copy Social",
